@@ -1,0 +1,81 @@
+
+<ion-view >
+
+    <ion-nav-bar class="bar-assertive">
+        <ion-nav-back-button class="button-clear">
+            <i class="icon ion-android-arrow-back"></i>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+
+    <ion-content class="live-detail-content">
+
+        <div class="live-video" ng-if="mine.mutilVideo">
+            <video  controls="controls" autoplay="autoplay" >
+                <!--poster="{{ mine.mutilVideo[0].imgUrl }}"-->
+                <source ng-src="{{ videoUrl }} " type="video/mp4">
+                <source ng-src="{{ videoUrl }} " type="video/ogg">
+            </video>
+
+        </div>
+        <div class="live-bg" ng-if="!mine.mutilVideo"></div>
+
+        <div class="swiper-container live-title-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">直播</div>
+                <div class="swiper-slide">聊天室</div>
+            </div>
+        </div>
+
+        <div class="swiper-container live-room-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!--直播间-->
+                    <div class="list  item-text-wrap">
+                        <div class="item item-divider " >
+                            <h3>直播</h3>
+                            <p class="show_time">{{ mine.startDate.slice(0,10) }}</p>
+                        </div>
+                        <div class="item item-avatar-left " ng-repeat="item in mine.messages | orderBy: item.id : true">
+                            <img ng-src="{{ item.commentator.imgUrl }}" alt="">
+                            <h3>{{ item.commentator.name }}</h3>
+                            <img class="imgInfo" ng-src="{{ img.fullSizeSrc }}" alt=""
+                                 width="{{ 100/item.images.length + '%'}}"
+                                 ng-if="item.images" ng-repeat="img in item.images ">
+                            <p>{{ item.msg.content }}</p>
+                            <div class="show_time">{{item.time.slice(11,-3) }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!--聊天室-->
+                    <div class="list  item-text-wrap">
+                        <div class="item item-divider">
+                            <h3>聊天室</h3>
+                            <p class="show_time">{{ mine.startDate.slice(0,10) }}</p>
+                        </div>
+                        <div class="item item-avatar-left live-room" ng-repeat="item in mine.last_log | orderBy : item.msg_id : true">
+                            <img ng-src="{{ item.avatar }}" ng-if="item.avatar" alt="加载错误">
+                            <button ng-if="!item.avatar" class="button button-stable icon ion-person" ></button>
+                            <h3>{{ item.nick_name + '  (用户名)' }}</h3>
+                            <p>{{'：'+ item.msg }}</p>
+                            <!--<img ng-if="item.images" ng-src="item.images[0]." alt="">-->
+                            <!--<h2>{{ JSON.parse(item.images) }}  {{ typeof(item.images) }}</h2>-->
+
+                            <div class="card" ng-if="item.quote">
+                                <h3>{{ item.quote.nick_name + '  (用户名)' }}</h3>
+                                <img class="imgInfo" ng-if="item.quote.images" ng-src="{{img.fullSizeSrc}}" ng-repeat="img in item.quote.images" alt="" style="max-width: 100px; margin-left: 20px">
+                                <p>{{ '：' + item.quote.msg }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+    <div class="sendText">
+        <input type="text" placeholder="我来说两句">
+        <button class="button button-small button-stable ion-android-share-alt icon "></button>
+    </div>
+</ion-view>

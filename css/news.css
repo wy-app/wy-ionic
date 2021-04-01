@@ -1,0 +1,64 @@
+
+/*<!--头部导航栏-->*/
+
+.index-nav {
+    background: rgb(223, 48, 49);
+    width: 100%;
+    /*height: 70px;*/
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo {
+    width: 100%;
+    height: 40px;
+    color: white;
+    /*background: rgb(255, 51, 51);*/
+}
+
+.logo img:nth-child(1) {
+    height: 40px;
+    padding: 8px;
+    float: left;
+}
+
+.logo > .button {
+    height: 40px !important;
+    width: 50px !important;
+    padding: 0px ;
+    float: right;
+
+}
+
+.logo .liveLogo{
+    width: 55px !important;
+    background-image: url(../img/live_logo.gif);
+    background-size: cover;
+}
+.search{
+    /*position: relative;*/
+    width: 35px !important;
+    background-image: url(../img/search.gif);
+    background-size: cover;
+}
+
+
+/*导航滚动*/
+.news-nav-scroll{
+    width: 100%;
+    height: 30px;
+    background: white;
+}
+.news-nav-scroll .tabs{
+    width: 500px;
+}
+.news-nav-scroll .tab-item{
+    /*width: 40px;*/
+}
+.tabs-top > .tabs{
+    top: 0px !important;
+    height: 30px;
+    line-height: 30px;
+}

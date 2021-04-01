@@ -1,0 +1,17 @@
+<ion-view>
+
+    <ion-nav-bar class="bar-dark">
+        <ion-nav-back-button class="button button-clear">
+            <i class="icon ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-content id="futureContent" >
+
+        <div ng-controller="liveFutureController" >
+        <iframe ng-src="{{ mine.template }}" frameborder="1"   ng-style=" mine.futureLive_style"></iframe>
+
+        </div>
+    </ion-content>
+
+</ion-view>

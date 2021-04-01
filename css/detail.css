@@ -1,0 +1,179 @@
+/*html,body{*/
+    /*width: 100%;*/
+/*}*/
+
+/*显示时的3D效果*/
+.content.ng-enter {
+    transition: all 0.7s  ;
+    transform: translateX(400px) scale(1);
+    opacity: 0;
+}
+.content.ng-enter-active {
+    transform: translateX(0px)  scale(1);
+    opacity: 1;
+}
+
+
+
+.detailContentWrapper{
+    /*min-height: 800px;*/
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.nav{
+    height:50px;
+    width: 100%;
+    padding:0 ;
+    background: rgb(223, 48, 49);
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.nav > button{
+    width: 70px;
+    height: 100%;
+    font-size: 18px;
+    border:0;
+    border-right: 1px solid #aaa;
+    background: url(../img/logo.png) no-repeat ;
+    background-size :50px 25px ;
+    background-position: 10px 10px;
+}
+.nav > span{
+    margin-top:10px ;
+    line-height: 25px;
+    font-size: 13px;
+    padding: 0 10px;
+    height: 25px;
+    color: white;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.nav > img{
+    padding: 10px ;
+    height: 50px;
+    float: right;
+    margin: 0 10px;
+}
+
+/*文字新闻*/
+.detail-title{
+    padding: 10px 10px 0;
+    color: #333;
+}
+.ptime{
+    padding: 0px 10px 5px;
+    color: #999;
+    height: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+.ptime span:nth-child(1){
+    float: left;
+    color:blue;
+    /*line-height: 18px;*/
+    outline-style: dotted;
+    outline-width: 1px;
+    padding: 2px;
+}
+.ptime span:nth-child(2){
+    float: right;
+}
+.detailContent {
+    overflow: hidden;
+    /*font-size: 12px;*/
+}
+.detailContent img{
+    display: block;
+    margin: 10px auto 0;
+    max-width: 95%;
+}
+.detailContent p{
+    margin: 0;
+    padding: 10px 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+}
+.detailContent span{
+    display: block;
+    color: #aaa;
+    margin: 5px 20px ;
+}
+
+/*图片新闻*/
+.imgContent{
+    width: 100%;
+    height: 650px !important;
+    background: black;
+    position: fixed;
+    z-index: 2;
+}
+.detailUl{
+    min-height: 650px;
+    position: relative;
+}
+.detailLi{
+    height: 650px;
+    padding: 150px 0 50px 0;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.detailLi img{
+    width: 100%;
+    position: absolute;
+    top:100px;
+}
+.noteWrapper{
+    width: 100%;
+    /*height: 200px;*/
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 999;
+}
+.noteWrapper h2{
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.imgIndex{
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    color: white;
+    font-size: 20px;
+}
+.imgIndex span:nth-child(1){
+    color: red;
+    font-weight: 900 ;
+    font-size: 24px;
+}
+.note{
+    max-height: 150px;
+    text-indent: 2em;
+    padding: 10px  10px  ;
+    word-break: normal;
+    line-height: 25px;
+    font-size: 16px;
+    color: white;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+
+
+.sendInfo{
+    margin: 0px auto 0;
+    width: 90%;
+    height: 3px;
+    padding: 5px 10px !important;
+    border: 1px solid sandybrown !important;
+    border-radius: 10px ;
+    display: block;
+    background-color: #eee;
+}

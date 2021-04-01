@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bcf5268-0b62-4fa7-bf33-438f784b9bcc" name="Default" comment="" />
+    <ignored path="wy6(ionic跳转).iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wy6(ionic跳转)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/news.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#255#2034#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/detailController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#1197#2534#0" />
+                <element signature="e#2620#2739#0" />
+                <element signature="e#2978#3151#0" />
+                <element signature="e#3204#4529#0" />
+                <marker date="1527129106240" expanded="true" signature="3939:3964" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-590">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myFactory</find>
+      <find>/swiper.js.map</find>
+      <find>newsList</find>
+      <find>$scope</find>
+      <find>Swiper</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/swiper.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/服务器1/server1.js" />
+        <option value="$PROJECT_DIR$/css/classify.css" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/headlineController.js" />
+        <option value="$PROJECT_DIR$/js/detailController.js" />
+        <option value="/Library/WebServer/Documents/meta/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wy6(ionic跳转)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wy6(ionic跳转)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wy6(ionic跳转)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wy6(ionic跳转)" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="clas&#9;FILE&#9;file:///Users/fuyingzhi/Documents/ 前端资源/web前端/项目文件/项目文件(网易APP)/wy6(ionic跳转)/css/classify.css" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="server1.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="server1.js" working-dir="$PROJECT_DIR$/服务器1">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server1.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bcf5268-0b62-4fa7-bf33-438f784b9bcc" name="Default" comment="" />
+      <created>1481532981814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481532981814</updated>
+      <workItem from="1481532984907" duration="398000" />
+      <workItem from="1484199493970" duration="719000" />
+      <workItem from="1484442807787" duration="88000" />
+      <workItem from="1485390757387" duration="737000" />
+      <workItem from="1486384655330" duration="1176000" />
+      <workItem from="1486523166884" duration="863000" />
+      <workItem from="1486558182999" duration="746000" />
+      <workItem from="1486623793165" duration="69000" />
+      <workItem from="1486717265379" duration="766000" />
+      <workItem from="1491787757757" duration="1391000" />
+      <workItem from="1510234501997" duration="1081000" />
+      <workItem from="1523449125456" duration="2087000" />
+      <workItem from="1524047229603" duration="126000" />
+      <workItem from="1524101511761" duration="3000" />
+      <workItem from="1524101685866" duration="1263000" />
+      <workItem from="1526028355256" duration="276000" />
+      <workItem from="1526979052675" duration="3222000" />
+      <workItem from="1527125543630" duration="1195000" />
+      <workItem from="1527146317654" duration="875000" />
+      <workItem from="1527157877138" duration="457000" />
+      <workItem from="1527212633434" duration="1144000" />
+      <workItem from="1527475890162" duration="1399000" />
+      <workItem from="1527559740505" duration="4047000" />
+      <workItem from="1527644812327" duration="1566000" />
+      <workItem from="1527731429793" duration="1283000" />
+      <workItem from="1528082930829" duration="5000" />
+      <workItem from="1528426435186" duration="1454000" />
+      <workItem from="1528609667723" duration="504000" />
+      <workItem from="1528701647107" duration="7000" />
+      <workItem from="1528773418894" duration="11000" />
+      <workItem from="1529030511876" duration="1040000" />
+      <workItem from="1529380154962" duration="424000" />
+      <workItem from="1529460417429" duration="9000" />
+      <workItem from="1547543553038" duration="1457000" />
+      <workItem from="1547609399618" duration="37000" />
+      <workItem from="1548229129417" duration="12000" />
+      <workItem from="1617297601055" duration="237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32174000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32689834" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991684" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/桌面/城建毕业证.JPG" />
+    <entry file="file://$PROJECT_DIR$/html/headline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84075">
+          <caret line="4425" column="9" selection-start-line="4425" selection-start-column="9" selection-end-line="4425" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器1/server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/classify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/carController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/WebServer/Documents/meta/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/specialController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#255#2034#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/headlineController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding>
+            <element signature="e#604#1746#0" />
+            <element signature="e#1852#2602#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ionic.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <folding>
+            <marker date="1475810806000" expanded="true" signature="17267:18014" ph="..." />
+            <marker date="1475810806000" expanded="true" signature="18554:18707" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="18789:18898" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="18983:19095" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="19167:19925" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="19234:19631" ph="{&quot;templateUrl&quot;: 'book.html'...}" />
+            <marker date="1475810806000" expanded="true" signature="19346:19616" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="19445:19599" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="19683:19790" ph="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+            <marker date="1475810806000" expanded="true" signature="20083:20665" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="36176:36890" ph="..." />
+            <marker date="1475810806000" expanded="true" signature="36501:36571" ph="..." />
+            <marker date="1475810806000" expanded="true" signature="36949:37054" ph="..." />
+            <marker date="1475810806000" expanded="true" signature="37116:37278" ph="..." />
+            <marker date="1475810806000" expanded="true" signature="37362:37548" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="37572:37607" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="37664:37962" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="37995:38027" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="38075:38104" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="38152:38185" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="38315:38898" ph="[...]" />
+            <marker date="1475810806000" expanded="true" signature="38411:38897" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="38481:38625" ph="{&quot;templateUrl&quot;: 'book.html'...}" />
+            <marker date="1475810806000" expanded="true" signature="38680:38833" ph="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+            <marker date="1475810806000" expanded="true" signature="38934:39177" ph="[...]" />
+            <marker date="1475810806000" expanded="true" signature="39037:39176" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="39213:39352" ph="[...]" />
+            <marker date="1475810806000" expanded="true" signature="39262:39351" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="39391:39536" ph="[...]" />
+            <marker date="1475810806000" expanded="true" signature="39443:39535" ph="{...}" />
+            <marker date="1475810806000" expanded="true" signature="39673:40201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/detailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#1197#2534#0" />
+            <element signature="e#2620#2739#0" />
+            <element signature="e#2978#3151#0" />
+            <element signature="e#3204#4529#0" />
+            <marker date="1527129106240" expanded="true" signature="3939:3964" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

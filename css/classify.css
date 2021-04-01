@@ -1,0 +1,9 @@
+
+.classify-top-wrapper > .button{
+    margin: 5px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    /*width: 65px;*/
+    padding: 2px 5px;
+    font-size: 15px;
+}

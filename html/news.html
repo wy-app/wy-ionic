@@ -1,0 +1,35 @@
+<ion-view view-title="网易主页" class="content">
+
+
+    <ion-header-bar class="wy-head-bar">
+        <!--导航栏-->
+        <div class="index-nav">
+            <div class="logo">
+                <img src="img/logo.png" alt="" ng-click="toggleLeftSideMenu()">
+                <button class="search button   "></button>
+                <button class=" button button-small button-assertive button-icon -mob-share-open ion-android-share-alt"></button>
+                <button class="liveLogo button  "></button>
+            </div>
+            <ion-scroll direction="x" class="news-nav-scroll light">
+                <div class="tabs-striped tabs-top">
+                    <div class="tabs " ng-click="mine.goTo($event)">
+                        <a href="" class="tab-item active">头条</a>
+                        <a href="" class="tab-item">精选</a>
+                        <a href="" class="tab-item">娱乐</a>
+                        <a href="" class="tab-item">体育</a>
+                        <a href="" class="tab-item">汽车</a>
+                        <a href="" class="tab-item">平顶山</a>
+                        <a href="" class="tab-item ">漫画</a>
+                        <a href="" class="tab-item">视频</a>
+                    </div>
+                </div>
+            </ion-scroll>
+
+        </div>
+
+    </ion-header-bar>
+    <ion-content>
+        <ion-nav-view ></ion-nav-view>
+    </ion-content>
+</ion-view>
+

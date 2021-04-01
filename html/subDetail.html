@@ -1,0 +1,68 @@
+
+<ion-view view-title="订阅详情">
+
+
+    <ion-nav-bar class="bar-assertive" >
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-content>
+
+        <div class="subDetail-top">
+            <img ng-src="{{mine.subscribe_info_all.topic_icons}}" alt="">
+            <div>
+                <h3>{{  mine.subscribe_info_all.tname}}</h3>
+                <p>{{ mine.subscribe_info_all.alias }}</p>
+            </div>
+        </div>
+
+        <div class="list">
+
+            <div class="item-divider"><span>全部</span></div>
+
+            <div class="item item-thumbnail-left" ng-repeat="item in mine.tab_list_all" ng-click="mine.goToLiveDetail(item.live_info.roomId)">
+                <img ng-src="{{ item.imgsrc }}" alt="">
+                <h2>{{ item.title }}</h2>
+                <p ng-if="item.live_info.user_count">{{ item.live_info.user_count + '人参与'}} </p>
+                <div ng-if="item.TAG == '直播预告'">
+                    <p style="color: green">{{ item.TAG }}</p>
+                    <p style="color: green">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+                <div ng-if="item.TAG == '正在直播'">
+                    <p style="color: red">{{ item.TAG }}</p>
+                    <p style="color: red">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+
+                <div ng-if="item.TAG == '直播回顾'">
+                    <p style="color: blue">{{ item.TAG }}</p>
+                    <p style="color: blue">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+            </div>
+
+            <div class="item-divider"><span>直播</span></div>
+
+            <div class="item item-thumbnail-left" ng-repeat="item in mine.tab_list_live" ng-click="mine.goToLiveDetail(item.live_info.roomId)">
+                <img ng-src="{{ item.imgsrc }}" alt="">
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.live_info.user_count + '人参与'}} </p>
+                <div ng-if="item.TAG == '直播预告'">
+                    <p style="color: green">{{ item.TAG }}</p>
+                    <p style="color: green">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+                <div ng-if="item.TAG == '正在直播'">
+                    <p style="color: red">{{ item.TAG }}</p>
+                    <p style="color: red">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+
+                <div ng-if="item.TAG == '直播回顾'">
+                    <p style="color: blue">{{ item.TAG }}</p>
+                    <p style="color: blue">{{ '开始时间：'+item.live_info.start_time.slice(5,-3) }}</p>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+
+
+</ion-view>

@@ -1,0 +1,52 @@
+
+/*/订阅号样式/*/
+.sub-search-button{
+    position: absolute;
+}
+.subSearch{
+    margin: 0;
+    padding-left: 40px !important;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #999;
+}
+.sub-scroll{
+
+}
+.sub-scroll .item{
+    font-size: 14px;
+    border-right: 4px solid #ccc;
+
+}
+
+.sublives-scroll{
+    border-left: 2px solid #ccc;
+    /*box-shadow:  -3px 0px 1px 2px #999;;*/
+    max-height: 520px;
+
+}
+.sublives-list li{
+    /*height: ;*/
+    /*background: #ccc;*/
+}
+
+/*订阅号详情页样式*/
+.subDetail-top{
+    text-align: center;
+    height: 170px;
+    color: white;
+    background: black;
+}
+.subDetail-top  h3 {
+    color: white;
+}
+.subDetail-top > img{
+    width: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0px auto 10px;
+    padding-top: 20px;
+    display: block;
+}

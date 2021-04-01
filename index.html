@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <!--自适应移动端，解析字体时和PC端标准不一样-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Title</title>
+
+
+    <link rel='icon' href='img/logo.png'  type='image/x-icon'>
+    <!--<link rel="stylesheet" href="../css/reset.css">-->
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <link rel="stylesheet" href="css/tabBar.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/headline.css">
+    <link rel="stylesheet" href="css/special.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/video.css">
+
+    <link rel="stylesheet" href="css/talk.css">
+
+    <link rel="stylesheet" href="lib/css/ionic.css">
+    <link rel="stylesheet" href="css/live.css">
+    <link rel="stylesheet" href="css/classify.css">
+    <link rel="stylesheet" href="css/sub.css">
+
+    <style>
+        *{  padding: 0;  margin: 0;  }
+        .-mob-share-list li{
+            width: 55px !important;
+            height: 50px !important;
+            border-radius: 10px;
+        }
+        .right-icon:after{
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            display: block;
+            margin-top: -8px;
+            color: #aaa;
+            content: "\f125";
+            font-size: 20px;
+            font-family: 'Ionicons';
+            line-height: 1;
+            /*speak: none;*/
+        }
+    </style>
+</head>
+<body >
+    <!--<div class="button -mob-share-open">分享</div>-->
+    <!--<div class="-mob-share-ui-button -mob-share-open">分享</div>-->
+    <div class="-mob-share-ui -mob-share-ui-theme -mob-share-ui-theme-slide-top" style="display: none">
+        <ul class="-mob-share-list " >
+            <li class="-mob-share-weibo" id="share_weibo"><p>新浪微博</p></li>
+            <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+            <li class="-mob-share-qzone"><p>QQ空间</p></li>
+            <li class="-mob-share-qq"><p>QQ好友</p></li>
+            <li class="-mob-share-weixin"><p>微信</p></li>
+            <li class="-mob-share-douban"><p>豆瓣</p></li>
+            <li class="-mob-share-renren"><p>人人网</p></li>
+            <li class="-mob-share-kaixin"><p>开心网</p></li>
+            <li class="-mob-share-facebook"><p>Facebook</p></li>
+            <li class="-mob-share-twitter"><p>Twitter</p></li>
+            <li class="-mob-share-pocket"><p>Pocket</p></li>
+            <li class="-mob-share-google"><p>Google+</p></li>
+            <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+            <li class="-mob-share-mingdao"><p>明道</p></li>
+            <li class="-mob-share-pengyou"><p>朋友网</p></li>
+            <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+            <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+            <li class="-mob-share-linkedin"><p>LinkedIn</p></li>
+        </ul>
+        <div class="-mob-share-close">取消</div>
+    </div>
+    <div class="-mob-share-ui-bg" ></div>
+
+
+    <ion-nav-view ></ion-nav-view>
+
+
+</body>
+</html>
+
+<!--插件js-->
+<script src="lib/jquery.js"></script>
+<script src="lib/swiper.js"></script>
+<!--<script src="lib/touch.js"></script>-->
+<script src="lib/ShareSDK.js"></script>
+<!--lib js文件-->
+<script src="lib/ionic.bundle.js"></script>
+<!--路由js-->
+<script src="js/app.js"></script>
+<script src="js/tabController.js"></script>
+<!--1.网易新闻-->
+<script src="js/news.js"></script>
+<script src="js/headlineController.js"></script>
+<script src="js/choiceController.js"></script>
+<script src="js/funController.js"></script>
+<script src="js/sportsController.js"></script>
+<script src="js/carController.js"></script>
+<script src="js/pdsController.js"></script>
+<script src="js/detailController.js"></script> <!--详情页控制器 -->
+<script src="js/specialController.js"></script>  <!--专题页控制器 -->
+<script src="js/videoController.js"></script>
+<script src="js/videoDetail.js"></script>
+<script src="js/cartoonController.js"></script>
+<script src="js/cartoonDetailController.js"></script>
+<!--2.直播模块-->
+<script src="js/liveController.js"></script>
+<script src="js/liveDetailController.js"></script>
+<script src="js/subController.js"></script>
+<script src="js/allSubController.js"></script>
+<script src="js/subDetail.js"></script>
+
+<script src="js/classifyController.js"></script>
+
+<!--3.话题-->
+<script src="js/talkController.js"></script>
+
+
+
+<!--<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=18ba87d6ddc47"></script>-->
+<!--<script>-->
+    <!--mobShare.config({-->
+        <!--appkey: '18ba87d6ddc47', // appkey-->
+        <!--params: {-->
+            <!--url: 'http://3g.163.com/ntes/special/00340QR4/app.html#download', // 分享链接-->
+            <!--title: '网易App下载链接', // 分享标题-->
+        <!--}-->
+    <!--});-->
+
+    
+<!--//</script>-->

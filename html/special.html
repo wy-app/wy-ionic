@@ -1,0 +1,56 @@
+
+<ion-view>
+
+
+    <!--<ion-nav-bar class="bar-assertive">-->
+        <!--<ion-nav-back-button class="button-clear">-->
+            <!--<i class=" icon ion-arrow-left-c"></i>-->
+        <!--</ion-nav-back-button>-->
+    <!--</ion-nav-bar>-->
+
+    <!--<ion-nav-bar class="bar-assertive ">-->
+        <!--<ion-nav-back-button class="button-icon">-->
+            <!--<i class="ion-arrow-left-c"></i>back-->
+        <!--</ion-nav-back-button>-->
+        <!--top-->
+    <div class="special-nav">
+        <button ng-click="mine.goBack()"></button>
+    </div>
+    <!--</ion-nav-bar>-->
+
+    <ion-content class="special-Content">
+
+        <div class="special-content">
+
+            <!--分类-->
+            <div class="special-top">
+                <img ng-src="{{ mine.newsList.banner }}" alt="">
+                <p ng-if="mine.newsList.digest"><b>导语：</b>{{ mine.newsList.digest }}</p>
+                <ul class="classify-wrapper">
+                    <li ng-repeat=" item in mine.topicsArr " ng-click="mine.goToAnchor($index)" >
+                        {{ item.shortname }}
+                    </li>
+                </ul>
+            </div>
+            <!--分类详情-->
+            <div ng-repeat=" item in mine.topicsArr " >
+                <div class="special-newsList-bar" id="{{ 'div'+ $index }}">
+                    <span>{{ $index+1 }}/{{ mine.topicsArr.length }} &nbsp;&nbsp;{{ item.shortname }}</span>
+                </div>
+                <div class="special-newsList" ng-repeat=" list in item.docs " ng-click="mine.goToDetailView(list.postid,list.skipID)">
+                    <div class="special-newsList-left">
+                        <img ng-src="{{ list.imgsrc }}" alt="图片加载错误...">
+                    </div>
+                    <div class="special-newsList-right">
+                        <h3> {{ list.title }}</h3>
+                        <span>{{ list.replyCount }} 跟帖</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="special-bottom">责任编辑：付颖志</div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

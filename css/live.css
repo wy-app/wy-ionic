@@ -1,0 +1,263 @@
+
+/*
+   *******热门********
+*/
+.buttons{
+    position: absolute;
+    z-index: 100;
+}
+.live-button{
+    line-height: 40px ;
+    height: 40px ;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+.live-content{
+    overflow: hidden;
+}
+
+/*轮播图*/
+.live-swiper-container{
+    /*margin-top: -10px;*/
+    width: 100%;
+    height: 160px;
+    position: relative;
+
+}
+.swiper-pagination{
+    position: absolute;
+    bottom: 0px !important;
+    z-index: 99;
+}
+.live-swiper-container .swiper-slide>p{
+    color: white;
+    /*font-size: 20px;*/
+    margin-left: 40px;
+    position: absolute;
+    bottom: 0px;
+}
+.live-swiper-container  img{
+    width: 100%;
+}
+
+/*预告样式*/
+.live-future{
+    width: 100%;
+    height: 30px;
+    border-top: 2px solid #999;
+    line-height: 30px;
+}
+.live-future > span {
+    margin: 5px ;
+    font-size: 12px;
+    display: inline-block;
+    height: 20px;
+    width: 15%;
+    line-height: 20px;
+    float: left;
+    padding: 2px 5px;
+    outline: 1px solid #eee;
+    background: #eee;
+}
+.future-live-swiper-container{
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
+.future-live-swiper-container .swiper-slide{
+    overflow: hidden;
+}
+
+
+/*、订阅号、*/
+.live-sub-scroll{
+    width: 100%;
+    height: 70px !important;
+}
+.live-sub-wrapper{
+    width: 990px;
+    height: 70px !important;
+   border-top: 2px solid #999;
+}
+.live-sub{
+    width: 60px;
+    height: 70px;
+    /*display: inline-block;*/
+    margin: 5px;
+    float: left;
+}
+.live-sub > button{
+    margin-left: 5px;
+    border-radius: 50%;
+    float: left;
+    /*font-size: 10px !important;*/
+}
+.live-sub img{
+    width: 40px;
+    border-radius: 50%;
+    /*margin-top: 5px;*/
+}
+.live-sub p{
+    font-size: 10px;
+}
+
+
+/*直播栏*/
+.live-item{
+    height: 165px;
+    position: relative;
+    padding: 0 !important;
+}
+.live-item>img{
+    width: 100%;
+    /*height: 200px;*/
+}
+
+.live_review_title_wrapper{
+    width: 100%;
+    height: 155px;
+    background-color: rgba(7,7,7,0.4);
+    position: absolute;
+    top:0;
+    z-index: 10;
+}
+.live_review_title{
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.live_review_title h2{
+    color: white;
+}
+.live_review_title span{
+    padding: 2px;
+    margin: 0px 10px;
+    color: white;
+    font-size: 12px;
+    outline: 1px solid white;
+    -moz-outline-radius: 10px;
+    border-radius: 10px;
+}
+
+.live_review_logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.live_review_logo img{
+    width: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.live_review_logo>span{
+    background-color: #fff;
+    display: inline-block;
+    line-height: 14px;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+/*
+   *******直播详情页********
+*/
+.live-detail-content .swiper-slide{
+    width: 80px;
+}
+/*导航栏*/
+.live-title-swiper{
+    width: 180px;
+    height: 30px;
+    /*background: #eee;*/
+}
+.live-title-swiper .swiper-slide{
+    text-align: center;
+    border-bottom: 3px solid red;
+    color: red;
+    opacity: 0.3;
+}
+.live-title-swiper .swiper-slide-active {
+    opacity: 1;
+}
+/*直播间和聊天室间的切换*/
+.live-room-swiper{
+    width: 100%;
+    height: 440px;
+
+}
+.live-room-swiper > .swiper-wrapper{
+    width: 100%;
+}
+.live-room-swiper .swiper-slide{
+    min-height: 480px ;
+    overflow: scroll;
+}
+
+
+/*直播*/
+.live-video {
+    width: 100%;
+    border: 10px solid #000;
+}
+.live-video video {
+    width: 100%;
+}
+.live-bg{
+    background: black;
+    width: 100%;
+    height: 140px;
+}
+
+.imgInfo{
+    padding:0 5px;
+}
+.show_time{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+/* 聊天室样式*/
+.ion-person{
+    float: left;
+    width: 30px !important;
+    margin-left: -60px;
+    border-radius:50%;
+}
+.live-room{
+    /*padding: 0;*/
+}
+.live-room .card{
+    margin: 0;
+    padding: 5px 10px;
+}
+
+/*回复输入框*/
+.sendText{
+    position: fixed;
+    bottom: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 38px;
+    background: #eeeeee;
+    border-top: 1px solid #aaa;
+}
+.sendText input{
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 10px 2px;
+    padding: 0 5px;
+}
+.sendText button{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 50px;
+}

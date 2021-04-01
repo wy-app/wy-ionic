@@ -1,0 +1,44 @@
+
+<ion-view>
+
+
+    <!--<ion-nav-bar class="bar-dark" >-->
+        <!--<ion-nav-back-button class="button button-clear icon ion-arrow-left-c">-->
+        <!--</ion-nav-back-button>-->
+    <!--</ion-nav-bar>-->
+
+    <div class="nav" style="background: black">
+        <!--<a href="#headline.html">回去</a>-->
+        <button class="button button-clear button-light icon ion-arrow-left-c" ng-click="mine.goBack()"></button>
+    </div>
+
+
+    <ion-content >
+
+
+        <div class="videoDetail-content">
+            <video controls  poster="{{ mine.videoObj.cover }}" ng-src="{{ videoUrl }}" preload="auto">
+                <!--<source  type="video/mp4">-->
+            </video>
+            <h4 >{{ mine.videoObj.title }}</h4>
+            <div class="source-wrapper">
+                <img class="topicImg" ng-src="{{ mine.videoObj.topicImg }}" alt="。" >
+                <span>{{ mine.videoObj.topicName }}</span>
+            </div>
+        </div>
+
+        <div class="videoDetail-recommend videoDetail-content" ng-repeat="item in mine.recommend" >
+            <video controls="controls"  poster="{{ item.cover }}" ng-src="{{ item.recommendUrl }}" >
+                <!--<source  type="video/mp4">-->
+            </video>
+            <h4 >{{ item.title }}</h4>
+            <div class="source-wrapper">
+                <img class="topicImg" ng-src="{{ item.topicImg }}" alt="。" >
+                <span>{{ item.topicName }}</span>
+            </div>
+        </div>
+
+
+    </ion-content>
+    <div class="mask"></div>
+</ion-view>

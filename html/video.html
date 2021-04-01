@@ -1,0 +1,45 @@
+<ion-view>
+
+
+    <!--<ion-header-bar class="wy-head-bar">-->
+        <!--&lt;!&ndash;导航栏&ndash;&gt;-->
+        <!--<div class="index-nav">-->
+            <!--<div class="logo">-->
+                <!--<img src="img/logo.png" alt="">-->
+                <!--<button class=" button button-small button-assertive -mob-share-open icon ion-android-share-alt" ></button>-->
+            <!--</div>-->
+            <!--<ion-scroll direction="x" class="news-nav-scroll light">-->
+                <!--<div class="tabs-striped tabs-top">-->
+                    <!--<div class="tabs " ng-click="mine.goTo($event)">-->
+                        <!--<a href="" class="tab-item">头条</a>-->
+                        <!--<a href="" class="tab-item">精选</a>-->
+                        <!--<a href="" class="tab-item">娱乐</a>-->
+                        <!--<a href="" class="tab-item">体育</a>-->
+                        <!--<a href="" class="tab-item">汽车</a>-->
+                        <!--<a href="" class="tab-item">平顶山</a>-->
+                        <!--<a href="" class="tab-item">漫画</a>-->
+                        <!--<a href="" class="tab-item active">视频</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</ion-scroll>-->
+        <!--</div>-->
+
+    <!--</ion-header-bar>-->
+
+
+    <ion-content class="video-content">
+
+        <div class="list ">
+            <div class="item card video-item item-text-wrap" ng-repeat="item in mine.videoArr" ng-click="mine.goToDetail(item.vid)">
+                <img  ng-src="{{ item.cover }}" alt="">
+                <h3>{{ item.title }}</h3>
+                <div class="topicImg-wrapper">
+                    <img ng-if="item.topicImg" class="topicImg" ng-src="{{ item.topicImg }}" alt="。" >
+                    <span>{{ item.topicName }}</span>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

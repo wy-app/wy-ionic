@@ -1,0 +1,43 @@
+<ion-view view-title="直播号">
+
+    <ion-nav-bar class="bar-assertive" >
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-content class="subDetail-Content">
+
+        <div class="row">
+            <div class="col">
+                <button class="button button-small button-stable ion-search icon sub-search-button"></button><input class="card subSearch" type="text" placeholder="   搜索">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-30">
+                <ion-scroll class="sub-scroll">
+                    <ul class="list">
+                        <li class="item" ng-repeat="item in mine.subs"  ng-click="mine.changeSubs(item.collectionId)">
+                            {{ item.collectionName }}
+                        </li>
+                    </ul>
+                </ion-scroll>
+            </div>
+            <div class="col-80" >
+                <ion-scroll class="sublives-scroll" >
+                    <ul class="list sublives-list "  ng-style="mine.subScrollStyle">
+                        <li class="item item-avatar-left item-button-right " ng-repeat="item in mine.sublives" ng-click="mine.goToSubDetail(item.ename)">
+                            <img ng-src="{{ item.icon }}" alt="">
+                            <h3>{{ item.tname }}</h3>
+                            <p>{{ item.userCount + '订阅' }}</p>
+                            <button class="button ion-plus-circled button-assertive sublives-button"  ng-click="mine.addSubs($event, item)"  name="{{item.tname}}" ></button>
+                        </li>
+                    </ul>
+                </ion-scroll>
+            </div>
+        </div>
+
+
+    </ion-content>
+
+</ion-view>

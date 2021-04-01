@@ -1,0 +1,24 @@
+<ion-modal-view >
+    <ion-header-bar class="bar bar-header bar-dark">
+        <h1 class="title">登陆界面</h1>
+        <button class="button button-clear button-primary" ng-click="cancelLoginModel()">取消</button>
+    </ion-header-bar>
+
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label">用户名</span>
+                <input id="Lname" type="text">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">密码</span>
+                <input id="Lpwd" type="text">
+            </label>
+            <!--<label class="item item-input">-->
+                <!--<span class="input-label">Email</span>-->
+                <!--<input ng-model="newUser.email" type="text">-->
+            <!--</label>-->
+            <button class="button button-full button-dark" ng-click="mine.Login()">登陆</button>
+        </div>
+    </ion-content>
+</ion-modal-view>

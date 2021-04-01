@@ -1,0 +1,52 @@
+<ion-view title="" style=" color:black">
+
+    <div class="nav">
+        <button ng-click="mine.goBack()"></button>
+        <img  src="img/sharelogo.png" alt="">
+        <span>{{ mine.replyCount }}跟帖</span>
+    </div>
+
+
+
+    <ion-content class="detail-Content">
+
+        <div class="detailContentWrapper">
+
+            <!--文字新闻-->
+            <div class="" ng-if=" mine.title != '' ">
+                <div class="detail-title">
+                    <h3>  {{ mine.title }} </h3>
+                </div>
+                <div class="ptime">
+                    <span> {{ mine.source }} </span>
+                    <span> {{ mine.time }} </span>
+                </div>
+                <div class="detailContent" ng-bind-html=" mine.content ">
+                </div>
+            </div>
+            <!--图片新闻-->
+            <div class="imgContent swiper-container" ng-if=" mine.imgArr != '' ">
+                <ul class="detailUl swiper-wrapper" >
+                    <li class="detailLi swiper-slide" ng-repeat="imgObj in mine.imgArr">
+                        <img ng-src=" {{ imgObj.imgurl }} " alt="">
+                        <div class="noteWrapper">
+                            <h2> {{ mine.setName }} </h2>
+                            <div class="imgIndex">
+                                <span>{{ mine.imgArr.indexOf(imgObj)+1 }}</span>
+                                <span>/{{mine.imgArr.length}}</span>
+                            </div>
+                            <div class="note" >
+                                {{ imgObj.note }}
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <input class="sendInfo" type="text" placeholder="写跟帖">
+        </div>
+
+
+    </ion-content>
+
+
+</ion-view>
