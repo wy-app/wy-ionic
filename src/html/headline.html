@@ -1,21 +1,19 @@
-
-
-<ion-view view-title="头条"  class="content" >
+<ion-view view-title="头条" class="content">
 
     <ion-content class="headline-content">
 
-        <ion-refresher pulling-text="下拉刷新"
-                       refreshing-text="加载中..."
-                       on-refresh="mine.refreshOrLoad('down')">
+        <ion-refresher pulling-text="下拉刷新" refreshing-text="加载中..." on-refresh="mine.refreshOrLoad('down')">
         </ion-refresher>
 
         <div style="background: white">
             <!--轮播图-->
             <div class="headslide swiper-container" ng-if=' (mine.imgArr.length != 0) || (mine.imgObj != null)'>
-                <ul class="imgWrapper swiper-wrapper" >
+                <ul class="imgWrapper swiper-wrapper">
                     <!--有轮播效果-->
-                    <li  class="imgItem swiper-slide"  ng-if='mine.imgArr.length != 0' ng-click=" mine.goToDetailView(imgObj.postid,imgObj.url,news.specialID,imgObj.photosetID)" ng-repeat="imgObj in mine.imgArr ">
-                        <div ><img ng-src="{{ imgObj.imgsrc }}" alt=""></div>
+                    <li class="imgItem swiper-slide" ng-if='mine.imgArr.length != 0'
+                        ng-click=" mine.goToDetailView(imgObj.postid,imgObj.url,news.specialID,imgObj.photosetID)"
+                        ng-repeat="imgObj in mine.imgArr ">
+                        <div><img ng-src="{{ imgObj.imgsrc }}" alt=""></div>
                         <span class="bar-title">{{ imgObj.title }} </span>
                         <div class="barIndex">
                             <span class="bar-count"> {{ mine.imgArr.indexOf(imgObj)+1 }}</span>
@@ -23,10 +21,12 @@
                         </div>
                     </li>
                     <!--无轮播效果-->
-                    <li ng-if='mine.imgObj' class="imgItem" ng-click=" mine.goToDetailView(mine.imgObj.postid,mine.imgObj.skipID)">
+                    <li ng-if='mine.imgObj' class="imgItem"
+                        ng-click=" mine.goToDetailView(mine.imgObj.postid,mine.imgObj.skipID)">
                         <div><img ng-src="{{ mine.imgObj.imgsrc }}" alt=""></div>
                         <span class="bar-title">{{ mine.imgObj.title }} </span>
-                        <span class="bar-count"> {{ mine.imgObj.$$hashKey && mine.imgObj.$$hashKey.split(':')[1]-2 }}</span>
+                        <span class="bar-count">
+                            {{ mine.imgObj.$$hashKey && mine.imgObj.$$hashKey.split(':')[1]-2 }}</span>
                     </li>
                 </ul>
                 <!--分页操作-->
@@ -38,18 +38,20 @@
 
             <!--新闻列表-->
             <ul class="newsList">
-                <li class="newsItem" ng-click='mine.goToDetailView(news.postid, news.skipID, news.specialID,news.photosetID)' ng-repeat="news in mine.newsList | orderBy : news.priority ">
+                <li class="newsItem"
+                    ng-click='mine.goToDetailView(news.postid, news.skipID, news.specialID,news.photosetID)'
+                    ng-repeat="news in mine.newsList | orderBy : news.priority ">
                     <!--纯文字新闻-->
                     <div class="contentView0" ng-if="!news.imgextra && news.imgsrc == '' ">
                         <h3> {{ news.title }}</h3>
                         <p>
                             <span> {{ news.source }} </span>
-                            <span > {{ news.ptime.slice(11,-3) }} </span>
+                            <span> {{ news.ptime.slice(11,-3) }} </span>
                             <span>📖 &nbsp;&nbsp;{{ news.replyCount }} </span>
                         </p>
                     </div>
                     <!--文字图片新闻-->
-                    <div  class="contentView1" ng-if=" !news.imgextra && news.imgsrc != '' " >
+                    <div class="contentView1" ng-if=" !news.imgextra && news.imgsrc != '' ">
                         <div class="left">
                             <img ng-src="{{ news.imgsrc }}" alt="图片加载错误...">
                         </div>
@@ -57,7 +59,8 @@
                             <h3> {{ news.title }}</h3>
                             <p>
                                 <span> {{ news.source }} </span>
-                                <span > <!-- {{ news.ptime.slice(11,-3) }} --> </span> <!-- 时间 -->
+                                <span>
+                                    <!-- {{ news.ptime.slice(11,-3) }} --> </span> <!-- 时间 -->
                                 <span ng-if=" !news.specialID">📖 &nbsp;&nbsp;{{ news.replyCount }} </span>
                                 <span ng-if="news.specialID" style="background: pink;color: red">专题</span>
                             </p>
@@ -79,12 +82,9 @@
         </div>
 
         <!--<div class="bottom">©1997-2016网易公司版权所有</div>-->
-        <ion-infinite-scroll
-                icon="ion-loading-c"
-                ng-if="mine.isShow"
-                on-infinite="mine.refreshOrLoad('up')"
-                distance='-50px'>
+        <ion-infinite-scroll icon="ion-loading-c" ng-if="mine.isShow" on-infinite="mine.refreshOrLoad('up')"
+            distance='-50px'>
         </ion-infinite-scroll>
 
     </ion-content>
-</ion-view >
+</ion-view>

@@ -1,7 +1,696 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bcf5268-0b62-4fa7-bf33-438f784b9bcc" name="Default" comment="" />
+    <list default="true" id="1bcf5268-0b62-4fa7-bf33-438f784b9bcc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/classify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/headline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/live.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/special.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sub.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tabBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/talk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cartoon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cartoonDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/headline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/live.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/liveDetailController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/live_future.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/mine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/special.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sub.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/subAll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/subDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tabBar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/talk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/videoDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/alert-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/alert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-add-contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-alarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-archive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-down-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-down-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-up-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-arrow-up-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-battery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-contacts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-developer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-display.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-dropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-forums.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-friends.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-inbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-keypad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-lightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-locate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-microphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-mixer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-printer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-promotion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-reminder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-send.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-social-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-sort.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-stair-drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-stopwatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-system-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-system-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-system-windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-user-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-volume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/android-wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/aperture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/archive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-down-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-down-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-down-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-graph-down-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-graph-down-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-graph-up-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-graph-up-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-left-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-left-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-left-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-resize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-return-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-return-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-right-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-right-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-right-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-shrink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-swap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-up-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-up-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/arrow-up-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/asterisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/at.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/battery-charging.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/battery-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/battery-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/battery-half.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/battery-low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/beaker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/beer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/bluetooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/bonfire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/bookmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/briefcase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/bug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/calculator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/cash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatbox-working.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatboxes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatbubble-working.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatbubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chatbubbles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/checkmark-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/checkmark-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chevron-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chevron-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chevron-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/chevron-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/clipboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/close-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/close-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/closed-captioning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/code-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/code-working.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/compass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/compose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/connection-bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/contrast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/disc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/document-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/document.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/eject.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/eye-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/female.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/filing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/film-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/fireball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/flame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/flash-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/flash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/flask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/fork-repo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/fork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/funnel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/game-controller-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/game-controller-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/gear-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/gear-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/happy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/headphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/heart-broken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/help-buoy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/help-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/icecream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/icon-social-google-plus-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/icon-social-google-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/information-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ionic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-alarm-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-alarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-albums-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-albums.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-americanfootball-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-americanfootball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-analytics-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-thin-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-thin-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-thin-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-thin-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-arrow-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-at-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-at.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-barcode-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-barcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-baseball-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-baseball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-basketball-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-basketball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bell-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bolt-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bookmarks-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-bookmarks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-box-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-briefcase-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-briefcase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-browsers-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-browsers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-calculator-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-calculator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-calendar-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-camera-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cart-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-chatboxes-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-chatboxes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-chatbubble-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-chatbubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-checkmark-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-checkmark-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-circle-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-circle-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-clock-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-close-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-close-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud-download-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud-upload-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud-upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloudy-night-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloudy-night.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloudy-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cloudy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cog-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-cog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-compose-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-compose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-contact-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-copy-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-download-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-email-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-eye-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-fastforward-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-fastforward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-filing-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-filing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-film-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-film.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-flag-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-folder-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-football-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-football.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-gear-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-gear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-glasses-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-glasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-heart-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-help-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-help-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-home-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-infinite-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-infinite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-information-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-information-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-ionic-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-keypad-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-keypad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-lightbulb-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-lightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-location-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-locked-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-loop-strong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-medkit-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-medkit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-mic-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-mic-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-mic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-minus-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-minus-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-monitor-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-monitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-moon-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-more-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-musical-note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-musical-notes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-navigate-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-navigate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paper-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paperplane-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paperplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-partlysunny-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-partlysunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pause-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paw-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-paw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-people-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-person-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-personadd-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-personadd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-photos-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-photos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pie-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-play-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-plus-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-plus-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pricetag-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pricetag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pricetags-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pricetags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-printer-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-printer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pulse-strong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-pulse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-rainy-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-rainy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-recording-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-recording.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-redo-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-refresh-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-refresh-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-reverse-camera-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-reverse-camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-rewind-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-search-strong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-settings-strong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-shrink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-skipbackward-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-skipbackward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-skipforward-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-skipforward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-snowy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-speedometer-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-speedometer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-star-half.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-star-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-stopwatch-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-stopwatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-sunny-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-sunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-telephone-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-tennisball-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-tennisball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-thunderstorm-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-thunderstorm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-time-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-timer-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-toggle-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-toggle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-trash-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-undo-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-unlocked-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-unlocked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-upload-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-videocam-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-videocam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-volume-high.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-volume-low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-wineglass-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-wineglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-world-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ios7-world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ipod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/jet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/levels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/lightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/load-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/load-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/load-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/load-d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/log-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/log-out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/magnet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/male.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/medkit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/merge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/mic-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/mic-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/mic-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/minus-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/minus-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/model-s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/monitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/music-note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/navicon-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/navicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/navigate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/no-smoking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/nuclear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/outlet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/paper-airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/paperclip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/person-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/person-stalker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pie-graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pinpoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/plane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/planet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/playstation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/plus-circled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/plus-round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/podium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/power.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pricetag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pricetags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/printer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/pull-request.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/qr-scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/quote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/radio-waves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/reply-all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/reply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ribbon-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/ribbon-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/shuffle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/skip-backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/skip-forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-android-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-apple-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-bitcoin-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-bitcoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-buffer-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-designernews-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-designernews.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-dribbble-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-dribbble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-dropbox-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-dropbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-facebook-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-foursquare-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-foursquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-freebsd-devil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-github-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-google-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-googleplus-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-hackernews-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-hackernews.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-instagram-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-linkedin-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-pinterest-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-reddit-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-reddit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-rss-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-skype-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-skype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-tumblr-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-tumblr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-tux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-twitter-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-usd-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-usd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-vimeo-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-vimeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-windows-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-wordpress-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-wordpress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-yahoo-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-yahoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-youtube-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/social-youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/speakerphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/speedometer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/spoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/stats-bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/steam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/thermometer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/thumbsdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/thumbsup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/toggle-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/toggle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/trash-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/trash-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/umbrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/university.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/unlocked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/usb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/videocamera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/volume-high.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/volume-low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/volume-medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/volume-mute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/wand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/waterdrop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/wifi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/wineglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/wrench.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/512/xbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/app_download_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fyz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-personal-v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/live.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/live_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_2016_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/search.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sharelogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/talk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/allSubController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/carController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cartoonController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cartoonDetailController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/choiceController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/classifyController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/detailController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/funController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/headlineController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/liveController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/liveDetailController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pdsController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/specialController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sportsController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/subController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/subDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tabController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/talkController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/videoController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/videoDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ShareSDK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/angular-animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/angular-route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/angular-ui-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/ionic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/ionic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ionic.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jquery-3.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器1/server1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器1/test.html" beforeDir="false" />
+    </list>
     <ignored path="wy6(ionic跳转).iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,50 +710,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/news.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#255#2034#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/detailController.js">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="-546">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
-                <element signature="e#1197#2534#0" />
-                <element signature="e#2620#2739#0" />
-                <element signature="e#2978#3151#0" />
-                <element signature="e#3204#4529#0" />
-                <marker date="1527129106240" expanded="true" signature="3939:3964" ph="..." />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-590">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/register.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -76,19 +738,24 @@
       <find>newsList</find>
       <find>$scope</find>
       <find>Swiper</find>
+      <find>lib/</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/swiper.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/服务器1/server1.js" />
         <option value="$PROJECT_DIR$/css/classify.css" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/headlineController.js" />
         <option value="$PROJECT_DIR$/js/detailController.js" />
         <option value="/Library/WebServer/Documents/meta/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/css/headline.css" />
       </list>
     </option>
   </component>
@@ -97,6 +764,7 @@
     <option name="width" value="1440" />
     <option name="height" value="875" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -113,7 +781,7 @@
             <path>
               <item name="wy6(ionic跳转)" type="b2602c69:ProjectViewProjectNode" />
               <item name="wy6(ionic跳转)" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +799,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -144,7 +817,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="server1.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="server1.js" working-dir="$PROJECT_DIR$/服务器1">
+    <configuration name="server1.js" type="NodeJSConfigurationType" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="server1.js" working-dir="$PROJECT_DIR$/server">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -208,29 +881,28 @@
       <workItem from="1547543553038" duration="1457000" />
       <workItem from="1547609399618" duration="37000" />
       <workItem from="1548229129417" duration="12000" />
-      <workItem from="1617297601055" duration="237000" />
+      <workItem from="1617297601055" duration="2207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32174000" />
+    <option name="totallyTimeSpent" value="34144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32689834" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32947233" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32689834" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -346,48 +1018,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/angular-route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <folding>
-            <marker date="1475810806000" expanded="true" signature="17267:18014" ph="..." />
-            <marker date="1475810806000" expanded="true" signature="18554:18707" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="18789:18898" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="18983:19095" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="19167:19925" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="19234:19631" ph="{&quot;templateUrl&quot;: 'book.html'...}" />
-            <marker date="1475810806000" expanded="true" signature="19346:19616" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="19445:19599" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="19683:19790" ph="{&quot;templateUrl&quot;: 'chapter.html'...}" />
-            <marker date="1475810806000" expanded="true" signature="20083:20665" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="36176:36890" ph="..." />
-            <marker date="1475810806000" expanded="true" signature="36501:36571" ph="..." />
-            <marker date="1475810806000" expanded="true" signature="36949:37054" ph="..." />
-            <marker date="1475810806000" expanded="true" signature="37116:37278" ph="..." />
-            <marker date="1475810806000" expanded="true" signature="37362:37548" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="37572:37607" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="37664:37962" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="37995:38027" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="38075:38104" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="38152:38185" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="38315:38898" ph="[...]" />
-            <marker date="1475810806000" expanded="true" signature="38411:38897" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="38481:38625" ph="{&quot;templateUrl&quot;: 'book.html'...}" />
-            <marker date="1475810806000" expanded="true" signature="38680:38833" ph="{&quot;templateUrl&quot;: 'chapter.html'...}" />
-            <marker date="1475810806000" expanded="true" signature="38934:39177" ph="[...]" />
-            <marker date="1475810806000" expanded="true" signature="39037:39176" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="39213:39352" ph="[...]" />
-            <marker date="1475810806000" expanded="true" signature="39262:39351" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="39391:39536" ph="[...]" />
-            <marker date="1475810806000" expanded="true" signature="39443:39535" ph="{...}" />
-            <marker date="1475810806000" expanded="true" signature="39673:40201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
+        <state relative-caret-position="-434" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/detailController.js">
@@ -399,7 +1030,48 @@
             <element signature="e#2620#2739#0" />
             <element signature="e#2978#3151#0" />
             <element signature="e#3204#4529#0" />
-            <marker date="1527129106240" expanded="true" signature="3939:3964" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/headline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/headline.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
